@@ -8,13 +8,23 @@ and open the template in the editor.
     Author     : gia
 */
 
-input[type=text], input[type=password], input[type=submit]{
+input{
     width: 100%;
     padding: 12px 20px;
     margin: 12px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+
+table, th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+button {
+    padding: 12px;
 }
 
 .content {

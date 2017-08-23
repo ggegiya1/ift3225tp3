@@ -18,7 +18,7 @@ and open the template in the editor.
                 
                 <input type="password" name="password" value="" placeholder="Password" required="required"/>
                 
-                <input type="checkbox"/> Login as administrator<br/>
+                <input type="checkbox" name="admin"/> Login as administrator<br/>
                
                 <input type="submit" value="Login" name="login" />
             </form>

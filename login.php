@@ -17,6 +17,10 @@ and open the template in the editor.
         if ($conn->connect_error){
             die("Database connection error");
         }
+        echo 'login successfull!';
+        echo 'logged as: '.$_POST["username"];
+        echo 'admin mode: '.$_POST["admin"];
+        echo 'action: '.$_POST["login"];
         ?>
     </body>
 </html>
